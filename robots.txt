@@ -1,1 +1,2 @@
+User-agent: *
 host: https://tyatr.ru
