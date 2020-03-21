@@ -1,0 +1,36 @@
+h3 {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-family: sans-serif;
+}
+
+ul {
+	font-family: sans-serif;
+}
+
+form {
+	font-family: sans-serif;
+}
+
+a {
+	color: #000080;
+	/* Цвет обычной ссылки */
+	padding: 2px;
+	/* Поля вокруг текста */
+}
+
+a:visited {
+	color: #87CEFA;
+	/* Цвет посещенной ссылки */
+}
+
+a:hover {
+	text-decoration: none;
+	/* Убираем подчеркивание */
+	color: #fff;
+	/* Цвет ссылки при наведении на нее курсора мыши */
+	background: #87CEFA;
+	/* Цвет фона */
+}
