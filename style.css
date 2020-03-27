@@ -3,21 +3,20 @@ body {
 }
 
 .content img {
-	border: 1px
-	outline: 10px solid #red;
+	border: 1px outline: 10px solid #red;
 }
 
 .return:hover:before {
 	content: "<<";
 }
 
-.email:focus { 
+.email:focus {
 	background-color: black;
-    color: #FF9900;
-   }
+	color: #FF9900;
+}
 
 input {
-	text-transform: capitalize;  
+	text-transform: capitalize;
 }
 
 .header img {
@@ -54,8 +53,11 @@ input {
 }
 
 .outline a img {
-	outline-style: groove;
-	outline-color: #FF9900;
+	outline: 3px solid #FF9900;
+}
+
+.outline a img:hover {
+	outline-color: white; /* Цвет рамки */
 }
 
 .heading {
@@ -79,6 +81,7 @@ input {
 	line-height: 24px;
 	text-align: left;
 }
+
 .list_style {
 	list-style-image: url(img/snk.png);
 	font-size: 13px;
@@ -94,6 +97,10 @@ input {
 	line-height: 30px;
 }
 
+.content_spisok a {
+	text-decoration: overline;
+}
+
 .table_zhopa {
 	border: 1px solid #000;
 	width: 100px;
@@ -103,10 +110,8 @@ input {
 
 .table_zhopa td {
 	border: 1px solid #FF9900;
-	padding-left: 10px;
-	
+	text-align: center;
 }
-
 
 .shortd:first-letter {
 	font-size: 30px;
